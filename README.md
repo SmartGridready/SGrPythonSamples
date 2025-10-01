@@ -1,0 +1,21 @@
+# SmartGridready Python Samples
+
+## Index
+
+- [Summary](#summary)
+- [Related Project](#related-projects)
+
+## Summary
+
+[SGrPythonSamples](https://github.com/SmartGridready/SGrPythonSamples) provides sample projects that demonstrate the use of the _Communication Handler Library_ provided in [SGrPython](https://github.com/SmartGridready/SGrPython).  
+The samples show different use cases of communicating with _products_, e.g. electricity meters, heat pumps, charging stations or PV inverters,
+with the help of [external interface descriptions](https://library.smartgridready.ch/Device).
+
+## Related Projects
+
+### OpenCEM
+
+_OpenCEM_ is a simple implementation of an EMS developed at [FHNW](https://www.fhnw.ch), demonstrating the use of the _Communication Handler Library_.
+
+The _OpenCEM_ project has been removed from the sample repository and moved to its own repository.  
+You can find the source code at [OpenCEM](https://github.com/open-cem/open-cem).
