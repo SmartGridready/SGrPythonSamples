@@ -15,7 +15,7 @@ with the help of [external interface descriptions](https://library.smartgridread
 
 ### Requirements / Prerequisites
 
-- Python interpreter >= 3.9
+- Python interpreter >= 3.9, < 3.13
 
 ### Clone
 
