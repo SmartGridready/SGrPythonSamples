@@ -1,1 +1,1 @@
-sgr-commhandler>=0.5.2
+sgr-commhandler>=0.6.0
