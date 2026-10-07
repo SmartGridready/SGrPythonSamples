@@ -15,7 +15,7 @@ with the help of [external interface descriptions](https://library.smartgridread
 
 ### Requirements / Prerequisites
 
-- Python interpreter >= 3.9
+- Python interpreter >= 3.10, < 3.15
 
 ### Clone
 
@@ -51,6 +51,14 @@ After all dependencies have been installed, you may launch any of the samples:
 ```bash
 python sample_xxx.py
 ```
+
+## Disclaimer - Community Support
+
+This project is developed and maintained by the _SmartGridready_ community.
+Contributions to the code are encouraged and welcome.
+If you would like to contribute bugfixes or features, contact the maintainers.
+Please be aware that _SmartGridready_ does not provide commercial support,
+and the software is provided "as is" without warranty of any kind.
 
 ## Related Projects
 

@@ -10,9 +10,9 @@ logger = logging.getLogger(__name__)
 
 # get dynamic tariff of Groupe-e
 async def main():
-    eid_name = 'SGr_05_mmmm_dddd_Dynamic_Tariffs_GroupeE_V1.0.xml'
+    eid_name = 'SGr_00_mmmm_dddd_DynamicTariff_GroupeE_V2.0.xml'
     eid_properties = {
-        'tariff_name': 'vario_plus'
+        'tariff_name': 'vario'
     }
     eid_path = os.path.join('..', '..', 'eids', eid_name)
 
@@ -32,8 +32,8 @@ async def main():
 
     # dynamic tariff requires query parameters in each request
     dynamic_request_parameters = {
-        'start_timestamp': '2025-10-21T00:00:00+02:00',
-        'end_timestamp': '2025-10-22T00:00:00+02:00'
+        'start_timestamp': '2026-10-01T00:00:00+02:00',
+        'end_timestamp': '2026-10-02T00:00:00+02:00'
     }
     try:
         # get the dynamic price data
